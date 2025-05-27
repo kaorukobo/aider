@@ -19,7 +19,8 @@ on:
       - '!.github/workflows/ubuntu-tests.yml'
     branches:
       - mine
-
+  workflow_dispatch:
+  
 jobs:
   build:
     runs-on: ubuntu-latest
